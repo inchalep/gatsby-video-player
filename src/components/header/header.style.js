@@ -13,8 +13,9 @@ export const HeaderContainer = styled.header`
 export const LogoLink = styled(Link)`
   padding: 20px;
   text-decoration:none;
-  font-size: 35px;
-  color:red;
+  font-size: 40px;
+  color:#21d6ff;
+  text-shadow: 0 0 10px rgba(225,225,225,.5); 
 `
 export const HeaderWrapper = styled(Wrapper)`
   padding: 10px 0;

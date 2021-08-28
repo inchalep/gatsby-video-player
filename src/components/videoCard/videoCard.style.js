@@ -6,12 +6,16 @@ export const VideoCardContainer = styled.div`
   width: 235px;;
   border-radius: 10px;
   margin: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  background-color: rgba(132,132,132,.5);
+  box-shadow: 5px 0 5px rgba(0,0,0,.5),
+              0 5px 5px rgba(225,225,225,.5),
+              5px 0 10px rgba(0,0,0,.5),
+              0 5px 10px rgba(225,225,225,.5);
 
   @media (max-width: 576px) {
     width : 65%; 
   }
-` 
+`
 export const VideoLink = styled.div`
   padding:5px;
   display:flex;
