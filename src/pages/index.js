@@ -65,6 +65,14 @@ const HomePage = ({ data, ...props }) => {
           </ModalVideo>
         </Modal>
       }
+      <footer>
+        <h4 style={{
+          margin:'20px 0',
+          textAlign:'center',
+          fontSize:'22px',
+        }}>Made with <span style={{color:'red',}}> &#10084;
+        </span> Dnyanu Inchale</h4>
+      </footer>
     </Layout>
           )
 }
